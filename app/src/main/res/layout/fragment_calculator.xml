@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_calculator">
+
+    <EditText
+        android:id="@+id/etsumm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:hint="@string/insert_summ"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="RU"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvchoosefrom"
+        app:layout_constraintStart_toStartOf="@+id/tvchoosefrom"
+        app:layout_constraintTop_toBottomOf="@+id/tvchoosefrom" />
+
+    <TextView
+        android:id="@+id/tvchoosefrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/choose_currency"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsumm" />
+
+    <TextView
+        android:id="@+id/tvchooseto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/choose_currency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsumm" />
+
+    <TextView
+        android:id="@+id/tvto"
+        android:layout_width="61dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:text="USD"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvchooseto"
+        app:layout_constraintStart_toStartOf="@+id/tvchooseto"
+        app:layout_constraintTop_toBottomOf="@+id/tvchooseto" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="@string/convert_button"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/etsumm"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/etsumm"
+        app:layout_constraintTop_toBottomOf="@+id/etsumm" />
+
+    <TextView
+        android:id="@+id/tvOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/tvto"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/tvfrom"
+        app:layout_constraintTop_toBottomOf="@+id/etsumm"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

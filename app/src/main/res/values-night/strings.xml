@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_summ">Введите сумму</string>
+    <string name="choose_currency">Выбери валюту</string>
+    <string name="convert_button">Конвертировать</string>
+</resources>
