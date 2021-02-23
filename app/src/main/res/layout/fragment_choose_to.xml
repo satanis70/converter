@@ -4,10 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:screenOrientation="portrait"
-    tools:context=".chooseValute.ui.Fragmentchoose">
+    tools:context=".ChooseToFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerValute"
+        android:id="@+id/recyclerValuteTo"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </FrameLayout>

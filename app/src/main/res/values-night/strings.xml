@@ -3,4 +3,6 @@
     <string name="insert_summ">Введите сумму</string>
     <string name="choose_currency">Выбери валюту</string>
     <string name="convert_button">Конвертировать</string>
+    <string name="ru">RU</string>
+    <string name="usd">USD</string>
 </resources>

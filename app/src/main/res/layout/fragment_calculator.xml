@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_calculator">
+    android:screenOrientation="portrait"
+    tools:context=".calculator.ui.Fragment_calculator">
 
     <EditText
         android:id="@+id/etsumm"
@@ -13,6 +14,7 @@
         android:layout_marginTop="72dp"
         android:hint="@string/insert_summ"
         android:maxLines="1"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,11 +25,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="RU"
+        android:clickable="true"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/tvchoosefrom"
         app:layout_constraintStart_toStartOf="@+id/tvchoosefrom"
-        app:layout_constraintTop_toBottomOf="@+id/tvchoosefrom" />
+        app:layout_constraintTop_toBottomOf="@+id/tvchoosefrom"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/tvchoosefrom"
@@ -54,14 +57,15 @@
         android:layout_width="61dp"
         android:layout_height="43dp"
         android:layout_marginTop="4dp"
-        android:text="USD"
+        android:clickable="true"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/tvchooseto"
         app:layout_constraintStart_toStartOf="@+id/tvchooseto"
-        app:layout_constraintTop_toBottomOf="@+id/tvchooseto" />
+        app:layout_constraintTop_toBottomOf="@+id/tvchooseto"
+        android:focusable="true" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonConvert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="240dp"
@@ -78,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConvert"
         app:layout_constraintEnd_toStartOf="@+id/tvto"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toEndOf="@+id/tvfrom"

@@ -5,4 +5,79 @@
     <string name="insert_summ">Введите сумму</string>
     <string name="choose_currency">Выбери валюту</string>
     <string name="convert_button">Конвертировать</string>
+    <string name="dont_valid_amount">Не валидная сумма</string>
+    <string name="ru">RU</string>
+    <string name="usd">USD</string>
+    <string-array name="valutes_code_array">
+        <item>AUD</item>
+        <item>AZN</item>
+        <item>GBP</item>
+        <item>AMD</item>
+        <item>BYN</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>HUF</item>
+        <item>HKD</item>
+        <item>DKK</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>INR</item>
+        <item>KZT</item>
+        <item>CAD</item>
+        <item>KGS</item>
+        <item>CNY</item>
+        <item>MDL</item>
+        <item>NOK</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>XDR</item>
+        <item>SGD</item>
+        <item>TJS</item>
+        <item>TRY</item>
+        <item>TMT</item>
+        <item>UZS</item>
+        <item>UAH</item>
+        <item>CZK</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>ZAR</item>
+        <item>KRW</item>
+        <item>JPY</item>
+    </string-array>
+    <string-array name="valutes_name_array">
+        <item>Австралийский доллар</item>
+        <item>Азербайджанский манат</item>
+        <item>Фунт стерлингов Соединенного королевства</item>
+        <item>Армянских драмов</item>
+        <item>Белорусский рубль</item>
+        <item>Болгарский лев</item>
+        <item>Бразильский реал</item>
+        <item>Венгерских форинтов</item>
+        <item>Гонконгских долларов</item>
+        <item>Датская крона</item>
+        <item>Доллар США</item>
+        <item>Евро</item>
+        <item>Индийских рупий</item>
+        <item>Казахстанских тенге</item>
+        <item>Канадский доллар</item>
+        <item>Киргизских сомов</item>
+        <item>Китайский юань</item>
+        <item>Молдавских леев</item>
+        <item>Норвежских крон</item>
+        <item>Польский злотый</item>
+        <item>Румынский лей</item>
+        <item>СДР (специальные права заимствования)</item>
+        <item>Сингапурский доллар</item>
+        <item>Таджикских сомони</item>
+        <item>Турецкая лира</item>
+        <item>Новый туркменский манат</item>
+        <item>Узбекских сумов</item>
+        <item>Украинских гривен</item>
+        <item>Чешских крон</item>
+        <item>Шведских крон</item>
+        <item>Швейцарский франк</item>
+        <item>Южноафриканских рэндов</item>
+        <item>Вон Республики Корея</item>
+        <item>Японских иен</item>
+    </string-array>
 </resources>
